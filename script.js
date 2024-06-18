@@ -19,9 +19,8 @@ let favoriteNumber = 42;
 
 let instructor1 = {
     firstName: "Colt"
-    [instructor1] = "This is my favorite number"
 }
-
+instructor1[favoriteNumber] = "This is my favorite number"
 // Function 3: Object Methods ES2015
 // Instructions: Refactor the instructor object methods using ES2015 shorthand syntax for functions.
 
